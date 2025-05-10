@@ -7,7 +7,7 @@ st.title("📰 The Daily Report")
 st.markdown("A curated feed of stories worth your time.")
 
 # Load CSV from Google Sheets
-csv_url = "https://docs.google.com/spreadsheets/d/YOUR_SHEET_ID/export?format=csv"
+csv_url = "https://docs.google.com/spreadsheets/d/1Xq3hovlDnizgOOwt7PbliXAZKavkL_KQ21ouTuOoJCs/export?format=csv"
 try:
     df = pd.read_csv(csv_url)
     for _, row in df.iterrows():
