@@ -2,12 +2,12 @@ import streamlit as st
 import pandas as pd
 
 # CONFIG
-st.set_page_config(page_title="The Daily Report", layout="wide")
-st.title("📰 The Daily Report")
+st.set_page_config(page_title="american black", layout="wide")
+st.title("📰 american black")
 st.markdown("A curated feed of stories worth your time.")
 
 # Load CSV from Google Sheets
-csv_url = "https://docs.google.com/spreadsheets/d/YOUR_SHEET_ID/export?format=csv"
+csv_url = "https://docs.google.com/spreadsheets/d/1Xq3hovlDnizgOOwt7PbliXAZKavkL_KQ21ouTuOoJCs/export?format=csv"
 
 try:
     df = pd.read_csv(csv_url)
